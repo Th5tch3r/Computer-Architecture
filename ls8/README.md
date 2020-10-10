@@ -60,8 +60,15 @@ but you'll have to implement those three above instructions first!
 ## Step 0: IMPORTANT: inventory what is here!
 
 * Make a list of files here.
+- cpu.py - file conteains CPU class. All code relating the CPU is here
+- ls8.py - playground file to run the cpu. Test the out of the cpu class
+- examples = bunch of .ls8 text files. Prob to run instructions.
+
 * Write a short 3-10-word description of what each file does.
 * Note what has been implemented, and what hasn't.
+- cpu.py - self.ram, ram_head method, self.pc, self.reg are not implemented yet
+- ls8.py - blank so we can write code to test cpu.py
+
 * Read this whole file.
 * Skim the spec.
 
